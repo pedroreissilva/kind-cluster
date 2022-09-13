@@ -1,4 +1,6 @@
 # kind-cluster
 
 ## Create Kind Cluster
-`kind create cluster --config kind-config.yaml` 
+```bash
+kind create cluster --name cert-cluster --config kind-config.yaml
+``` 
